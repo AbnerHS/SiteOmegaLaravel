@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+    display: none;
+}
+
+::-webkit-scrollbar-track-piece  {
+    background-color: #ffffff;
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #b71c1c;
+    -webkit-border-radius: 6px;
+}
+#result{
+    width:32%;
+    left:10%;
+    position: absolute;
+    z-index:2;
+    max-height: 50%;
+    overflow: auto;
+    background: white;
+}
+@media only screen and (min-width: 993px){
+    .container{
+        width: 80%;
+    }
+    .formPesquisa{
+        width: 40%;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .formPesquisa{
+        width: 50%;
+    }
+    #result{
+        width: 80%;
+    }
+}
+nav .input-field label i{
+    color: grey;
+}
+.fab{
+    font-size:2rem;
+    line-height: 3rem;
+    color:grey;
+}
+.navIcon{
+    padding-right:0.5rem;
+    padding-left: 1rem;
+}
+.fab:hover{
+    color: #b71c1c;
+}
+
+.collection{
+    margin: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
